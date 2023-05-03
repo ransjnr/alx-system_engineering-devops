@@ -1,2 +1,8 @@
 #!/usr/bin/env ruby
-#puts ARGV[0].scan(/School/i).join
+input_string = ARGV[0]
+if input_string =~ /School/
+  puts "School"
+else
+  puts ""
+end
+
